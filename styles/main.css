@@ -3,10 +3,7 @@
 
 /*Typography
 --------------------------------------------------------------*/
-body {
-  display: flex;
-  flex-direction: row;
-}
+body,
 button,
 input,
 select,
@@ -34,5 +31,9 @@ ul {
     background-color: rgb(227, 72, 72);
     color: lightgoldenrodyellow;
     font-size: 1rem;
+}
+
+.choices {
+  display: flex;
 }
 
